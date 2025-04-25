@@ -2,7 +2,7 @@
 
 /* About Us Section */
 .about-us {
-  background-color: #d1dde9;
+  background-color: #ffffff;
   padding: 4rem 2rem;
   color: #9c0d0d;
 }
@@ -17,9 +17,11 @@
 
 /* Paragraph Styling */
 .about-us p {
-  font-size: 1.25rem;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: #1f6c80;
+  font-size: 1rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #ffffff;
+  background-color: #1f6c80;
+  padding: 8%;
   
 }
 
