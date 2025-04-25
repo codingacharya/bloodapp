@@ -2,7 +2,7 @@
 
 /* Navbar container */
 .navbar {
-    background-color: #2563eb; /* Blue color */
+    background-color: #ffffff; /* Blue color */
     padding: 1rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
     position: sticky;
@@ -36,13 +36,13 @@
   .navbar .nav-links a {
     font-size: 1rem;
     font-weight: 500;
-    color: white;
+    color: rgb(233, 17, 125);
     text-decoration: none;
     transition: color 0.3s ease;
   }
   
   .navbar .nav-links a:hover {
-    color: #e0f2fe; /* Light blue hover effect */
+    color: #4a07e6; /* Light blue hover effect */
   }
   
   /* Mobile menu button (optional) */
@@ -71,7 +71,7 @@
   
   .error-code {
     font-size: 6rem;
-    color: #2563eb;
+    color: #ffffff;
     font-weight: bold;
   }
   
@@ -89,6 +89,6 @@
   }
   
   .go-home:hover {
-    text-decoration: underline;
+    text-decoration: turquoise;
   }
   
