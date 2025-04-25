@@ -18,8 +18,13 @@ import NotFound from "./pages/NotFound"; // A 404 page for undefined routes
 import Navbar from "./components/Navbar";
 import HeroSection from './components/HeroSection';
 import AboutUs from './components/AboutUs';
-import Service from './components/Service';  // Import the About Us section
+import Service from './components/Service'; 
+ // Import the About Us section
+import Slideshow from "./components/Slideshow";
+import Testimonial from "./components/Testimonial";
+import Footer from "./components/Footer";
 import './index.css';
+
 
 
 const App = () => {
@@ -29,6 +34,9 @@ const App = () => {
       <HeroSection />
       <AboutUs />
       <Service />
+      <Slideshow/>
+      <Testimonial/>
+      <Footer/>
       
       <div className="min-h-screen">
         <Routes>
