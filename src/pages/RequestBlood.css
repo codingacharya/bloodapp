@@ -1,0 +1,94 @@
+/* src/pages/RequestBlood.css */
+
+/* Page Layout */
+.request-blood-page {
+  background-color: #f3f4f6;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+/* Form Container */
+.request-blood-form-container {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Title */
+.request-blood-form-container h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #333333;
+  text-align: center;
+}
+
+/* Input Fields */
+.input-field {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.75rem 0;
+  border: 1px solid #ddd;
+  border-radius: 0.375rem;
+  background-color: #f9fafb;
+  font-size: 1rem;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+.input-field::placeholder {
+  color: #888;
+}
+
+/* Select Dropdown */
+select.input-field {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.75rem 0;
+  border: 1px solid #ddd;
+  border-radius: 0.375rem;
+  background-color: #f9fafb;
+  font-size: 1rem;
+}
+
+/* Submit Button */
+.submit-btn {
+  width: 100%;
+  padding: 1rem;
+  background-color: #2563eb;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #1d4ed8;
+}
+
+/* Error and Success Message */
+.error-message {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.success-message {
+  color: green;
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+  text-align: center;
+}

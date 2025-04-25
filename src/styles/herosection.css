@@ -1,0 +1,78 @@
+/* src/styles/herosection.css */
+
+/* Hero Section container */
+.hero-section {
+  position: relative;
+  background-color: #2563eb; /* Blue background color */
+  color: white;
+  padding: 6rem 2rem; /* Adjust padding for top/bottom */
+}
+
+/* Background image styling */
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('https://via.placeholder.com/1500x900'); /* Background image */
+  background-position: center;
+  background-size: cover;
+  opacity: 0.5; /* Adjust opacity for a slight overlay */
+  z-index: -1;
+}
+
+/* Text container */
+.hero-section .hero-content {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Heading */
+.hero-section .hero-content h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+/* Subheading */
+.hero-section .hero-content p {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+  font-weight: 300;
+}
+
+/* Call to Action Button */
+.hero-section .cta-button {
+  background-color: #e11d48; /* Red background */
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  border-radius: 9999px; /* Fully rounded corners */
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effects for button */
+.hero-section .cta-button:hover {
+  background-color: #9f1239; /* Darker red on hover */
+  transform: scale(1.05); /* Slight zoom-in effect */
+}
+
+@media (max-width: 768px) {
+  .hero-section .hero-content h1 {
+    font-size: 2rem; /* Smaller heading on mobile */
+  }
+
+  .hero-section .hero-content p {
+    font-size: 1rem; /* Smaller subheading on mobile */
+  }
+
+  .hero-section .cta-button {
+    font-size: 1rem; /* Smaller button text on mobile */
+  }
+}

@@ -1,0 +1,58 @@
+/* src/styles/aboutus.css */
+
+/* About Us Section */
+.about-us {
+  background-color: #d1dde9;
+  padding: 4rem 2rem;
+  color: #9c0d0d;
+}
+
+/* Title Styling */
+.about-us h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ee0a61;
+  margin-bottom: 1rem;
+}
+
+/* Paragraph Styling */
+.about-us p {
+  font-size: 1.25rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #1f6c80;
+  
+}
+
+/* Content Wrapper */
+.about-content {
+  margin-top: 1rem;
+  display: flex;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.about-content .about-text {
+  text-align: justify;
+}
+
+.about-content .about-image {
+  text-align: center;
+}
+
+.about-content img {
+  width: 300;
+  height: 300;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive design for medium devices */
+@media (min-width: 768px) {
+  .about-content {
+    grid-template-columns: 1fr 1fr; /* Two-column layout */
+  }
+
+  .about-us p {
+    font-size: 1.5rem; /* Larger text on larger screens */
+  }
+}

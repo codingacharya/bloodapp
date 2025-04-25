@@ -1,0 +1,94 @@
+/* src/styles/navbar.css */
+
+/* Navbar container */
+.navbar {
+    background-color: #2563eb; /* Blue color */
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensures navbar is always on top */
+  }
+  
+  /* Navbar content wrapper */
+  .navbar-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Logo styling */
+  .navbar .logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Navigation links */
+  .navbar .nav-links {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .navbar .nav-links a {
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar .nav-links a:hover {
+    color: #e0f2fe; /* Light blue hover effect */
+  }
+  
+  /* Mobile menu button (optional) */
+  .navbar .mobile-menu-btn {
+    display: none;
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  /* Media query for mobile devices */
+  @media (max-width: 768px) {
+    .navbar .nav-links {
+      display: none; /* Hide desktop links on mobile */
+    }
+  
+    .navbar .mobile-menu-btn {
+      display: block; /* Show the mobile menu button on mobile */
+    }
+  }
+  
+  /* 404 Not Found Page Styles */
+  .not-found {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .error-code {
+    font-size: 6rem;
+    color: #2563eb;
+    font-weight: bold;
+  }
+  
+  .error-message {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .go-home {
+    font-size: 1.25rem;
+    color: #2563eb;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+  }
+  
+  .go-home:hover {
+    text-decoration: underline;
+  }
+  
